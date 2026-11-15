@@ -1,0 +1,2464 @@
+{
+ "points": {
+  "title": "POINTS",
+  "rules": {
+   "heading": "Rules",
+   "text": "Unit points are a way of measuring a member's progress and experience within the unit. Points are distributed for attending unit functions and/or dedicating time to the unit. Points may be given for other contributions on a case-by-case basis.\nPoints are not given, they are earned. Poor Behavior during a unit function or while representing the unit in and out of game may lead to the withholding or deduction of points from a member's records."
+  },
+  "gain": {
+   "heading": "How to Gain Points",
+   "text": "Points are given to all members who attend the majority (51% of total runtime or more) of a unit function that meets the below criteria. Intentional abuse of this,  or failing to attempt to stay and participate for full durations of events if possible, results in points voided.",
+   "maxHeading": "Maximum Points Allowed Per Week",
+   "maxNote": "(Points from Recruitment Bounties may surpass 3 points)",
+   "maxValue": "3"
+  },
+  "notQualify": {
+   "heading": "What Does Not Qualify?",
+   "items": [
+    "Events designated as Fun Operations/Events",
+    "Fun Campaigns",
+    "Town Halls",
+    "Any and all Game Nights",
+    "Liberation Sessions/Events not approved as Trainings/FTX",
+    "Any events not scheduled and approved as Trainings/FTX with a curriculum presented and approved",
+    "Any and all events coordinated and/or conducted in other games than Arma 3"
+   ]
+  },
+  "qualifies": {
+   "heading": "What Qualifies?",
+   "items": [
+    "Teaching or Attending a Qual/Cert Training",
+    "Attending or teaching GENTAC",
+    "Attending your Platoons Main Op",
+    "Attending another Platoons Main Op as a Fill-In",
+    "Attending events designated as Side-Ops or RP Events",
+    "Attending your Squad, Flight, or Platoons Trainings or FTX (Field Training Exercises)",
+    "Attending any unit-wide Test Ops",
+    "Recruitment Bounty"
+   ],
+   "notes": {
+    "Recruitment Bounty": "Note: Bounties are given after the invitee has successfully passed GENTAC and attended their first Platoon Operation."
+   }
+  },
+  "milestones": {
+   "heading": "Milestone Breakdown",
+   "cols": [
+    "Pts\n(How many points needed to qualify for said milestone)",
+    "INFANTRY Milestone",
+    "AVIATION Milestones"
+   ],
+   "rows": [
+    {
+     "row": 13,
+     "pts": {
+      "text": "GENTAC Graduation",
+      "rows": 1
+     },
+     "inf": {
+      "text": "- CT Promotion\n- Graduation Medal",
+      "rows": 1
+     },
+     "av": {
+      "text": "",
+      "rows": 1
+     }
+    },
+    {
+     "row": 14,
+     "pts": {
+      "text": "10",
+      "rows": 1
+     },
+     "inf": {
+      "text": "SCT Promotion",
+      "rows": 1
+     },
+     "av": {
+      "text": "CXC / Can Retire",
+      "rows": 1
+     }
+    },
+    {
+     "row": 15,
+     "pts": {
+      "text": "15",
+      "rows": 1
+     },
+     "inf": {
+      "text": "Custom Helmet",
+      "rows": 1
+     },
+     "av": {
+      "text": "CX Promotion",
+      "rows": 2
+     }
+    },
+    {
+     "row": 16,
+     "pts": {
+      "text": "25",
+      "rows": 2
+     },
+     "inf": {
+      "text": "VCT Promotion",
+      "rows": 2
+     }
+    },
+    {
+     "row": 17,
+     "av": {
+      "text": "CXV Promotion\n- Custom LAAT skin",
+      "rows": 2
+     }
+    },
+    {
+     "row": 18,
+     "pts": {
+      "text": "40",
+      "rows": 2
+     },
+     "inf": {
+      "text": "- CLC Promotion",
+      "rows": 1
+     }
+    },
+    {
+     "row": 19,
+     "inf": {
+      "text": "- Custom Armor",
+      "rows": 1
+     },
+     "av": {
+      "text": "",
+      "rows": 1
+     }
+    },
+    {
+     "row": 20,
+     "pts": {
+      "text": "45 + FTL/SL/FL FTL SULC",
+      "rows": 1
+     },
+     "inf": {
+      "text": "CPL Promotion",
+      "rows": 1
+     },
+     "av": {
+      "text": "CXP Promotion",
+      "rows": 1
+     }
+    },
+    {
+     "row": 21,
+     "pts": {
+      "text": "50 + SL/SQNL SL SULC",
+      "rows": 1
+     },
+     "inf": {
+      "text": "CS Promotion",
+      "rows": 1
+     },
+     "av": {
+      "text": "CXS Promotion",
+      "rows": 1
+     }
+    },
+    {
+     "row": 22,
+     "pts": {
+      "text": "60 + PS",
+      "rows": 1
+     },
+     "inf": {
+      "text": "CSS Promotion",
+      "rows": 1
+     },
+     "av": {
+      "text": "",
+      "rows": 1
+     }
+    },
+    {
+     "row": 23,
+     "pts": {
+      "text": "60",
+      "rows": 1
+     },
+     "inf": {
+      "text": "DC-15C - Custom NVG, CC Visor, or Jetpack",
+      "rows": 1
+     },
+     "av": {
+      "text": "",
+      "rows": 1
+     }
+    },
+    {
+     "row": 24,
+     "pts": {
+      "text": "70 + CSM",
+      "rows": 1
+     },
+     "inf": {
+      "text": "CSM Promotion",
+      "rows": 1
+     },
+     "av": {
+      "text": "",
+      "rows": 1
+     }
+    },
+    {
+     "row": 25,
+     "pts": {
+      "text": "60 + PL",
+      "rows": 1
+     },
+     "inf": {
+      "text": "CSL Promotion",
+      "rows": 1
+     },
+     "av": {
+      "text": "CXL Promotion",
+      "rows": 1
+     }
+    },
+    {
+     "row": 26,
+     "pts": {
+      "text": "70 + PL",
+      "rows": 1
+     },
+     "inf": {
+      "text": "CL Promotion",
+      "rows": 1
+     },
+     "av": {
+      "text": "CXR Promotion",
+      "rows": 1
+     }
+    },
+    {
+     "row": 27,
+     "pts": {
+      "text": "80",
+      "rows": 1
+     },
+     "inf": {
+      "text": "Dirt Armor Variant",
+      "rows": 1
+     },
+     "av": {
+      "text": "Dirt Armor Variant",
+      "rows": 1
+     }
+    },
+    {
+     "row": 28,
+     "pts": {
+      "text": "100",
+      "rows": 1
+     },
+     "inf": {
+      "text": "Qual Cap Removed\n(Minus FU)",
+      "rows": 1
+     },
+     "av": {
+      "text": "Qual Cap Removed\n(Minus FU)",
+      "rows": 1
+     }
+    },
+    {
+     "row": 29,
+     "pts": {
+      "text": "100 + CC",
+      "rows": 1
+     },
+     "inf": {
+      "text": "CC Promotion",
+      "rows": 1
+     },
+     "av": {
+      "text": "",
+      "rows": 1
+     }
+    },
+    {
+     "row": 30,
+     "pts": {
+      "text": "100 + Leadership",
+      "rows": 1
+     },
+     "inf": {
+      "text": "Veteran Kama/FTL Sash",
+      "rows": 1
+     },
+     "av": {
+      "text": "CXL Promotion",
+      "rows": 1
+     }
+    },
+    {
+     "row": 31,
+     "pts": {
+      "text": "150",
+      "rows": 1
+     },
+     "inf": {
+      "text": "Custom Clone Face",
+      "rows": 1
+     },
+     "av": {
+      "text": "CXR Promotion",
+      "rows": 1
+     }
+    },
+    {
+     "row": 32,
+     "pts": {
+      "text": "200 + Bn CMD",
+      "rows": 2
+     },
+     "inf": {
+      "text": "BC/BSM Promotion\nCustom Kama",
+      "rows": 2
+     },
+     "av": {
+      "text": "",
+      "rows": 2
+     }
+    },
+    {
+     "row": 33
+    }
+   ]
+  },
+  "key": {
+   "heading": "Key",
+   "items": [
+    [
+     "FTL",
+     "Fireteam Leader"
+    ],
+    [
+     "FL",
+     "Flight Leader"
+    ],
+    [
+     "SL",
+     "Squad / Section Leader"
+    ],
+    [
+     "SQNL",
+     "Squadron Leader"
+    ],
+    [
+     "PS",
+     "Platoon Sergeant"
+    ],
+    [
+     "CSM",
+     "Company Sergeant Major"
+    ],
+    [
+     "BSM",
+     "Battalion Sergeant Major"
+    ],
+    [
+     "PL",
+     "Platoon Leader"
+    ],
+    [
+     "CC",
+     "Company Commander"
+    ],
+    [
+     "BSM",
+     "Battalion Sergeant Major"
+    ],
+    [
+     "BC",
+     "Battalion Commander"
+    ]
+   ]
+  },
+  "note": {
+   "heading": "Note",
+   "text": "If you are unsure if something qualifies for a point or not, please inquire with your direct chain of command."
+  }
+ },
+ "activity": {
+  "title": "Activity Requirements",
+  "statuses": [
+   {
+    "name": "Company/Squadron Command+",
+    "requirements": [
+     "Must Attend at least one Main Operation per weekend\n- If unable, must submit LOA",
+     "Must maintain and uphold all requirements of Platoon/Squadron Command as outlined by corresponding guidelines"
+    ],
+    "timeout": "Permitted to remain in Command for a duration of Two Weeks with no attendance. If not exhibited, transfer to Active Reserves will follow."
+   },
+   {
+    "name": "Active Duty/Billet Trooper",
+    "requirements": [
+     "Must Attend Platoon Operation as assigned role/billet\n\nExemptions:\n- Filling in for another Platoon\n- Ordered to fill a billet by CoC\n- Shadowing/Trialing for a billet (limit to 1 week per month)\n- If unable, must submit LOA",
+     "Must maintain and uphold all requirements of their billet as outlined by corresponding guidelines"
+    ],
+    "timeout": "Permitted to remain in Active Duty for a duration of Two Weeks with no billeted platoon Main Op attendance. If not exhibited, transfer to Active Reserves will follow."
+   },
+   {
+    "name": "Active Reserves",
+    "requirements": [
+     "Must attend at least one Platoon Operation every four weeks\n- If unable, must submit LOA"
+    ],
+    "timeout": "Permitted to remain in Active Reserves for a duration of One Month (four weeks) with no attendance to point-applicable events. If not exhibited, transfer to Inactive Reserves will follow."
+   },
+   {
+    "name": "Inactive Reserves",
+    "requirements": [
+     "Not allowed to attend Platoon Operations OR Side-Operations due to Server Caps",
+     "Must maintain communication with Platoon Command about duration of Inactivity",
+     "Must declare estimation or exact dates of duration for Inactivity (if known, if not known give approximation)",
+     "Are permitted to remain in Inactive Reserves as long as required, provided that timelines are given and communication maintained.",
+     "May not apply or try out to Sub-Units, Detachments or Leadership as pre-existing activity is required"
+    ],
+    "timeout": "Permitted to remain in Inactive Reserves for a duration of Three Months (12 weeks) with no communication. If not established, removal from the unit will follow."
+   },
+   {
+    "name": "Interterm",
+    "requirements": [
+     "Main Op Attendance is not mandatory, however absence must still be logged in an LOA."
+    ],
+    "timeout": "Permitted to remain in current billet for duration of Interterm unless an LOA is not filed for absences occuring during Interterm."
+   }
+  ]
+ },
+ "discharge": {
+  "typesTitle": "Discharge Type",
+  "types": [
+   {
+    "name": "Honorable",
+    "points": [
+     "Honorable discharges are granted to members who do not have any history of disciplinary actions or counselings.",
+     "At time of discharge, they can request to be moved to a retired section or to leave the unit and still be allowed to maintain all Quals/Certs/Awards and their rank up to CLC or a junior NCO position should the staff see fit.",
+     "At any time, an honorable discharge member may rejoin and be integrated into a platoon of their choosing by utilizing the \"reenlistment\" channel. S-3 Recruitment / S-1 Administration will guide returning members or those coming out of retirement to this channel.",
+     "Once they have entered the reenlistment pipeline, the Platoon Sergeant of the platoon they wish to rejoin will handle their placement and ensuring their prior roles are returned if not already handled.",
+     "Honorable Discharges have priority upon return over ALL other types of discharges.\n\nStatus of ARC/Scout/Ranger may be permitted to be returned should command deem appropriate."
+    ]
+   },
+   {
+    "name": "General",
+    "points": [
+     "General discharges are granted to members who do not have an ACTIVE history of disciplinary actions or counselings.",
+     "At time of discharge, they can request to be moved to a retired section or to leave the unit and still be allowed to maintain all Quals/Certs/Awards and their rank up to CLC.",
+     "At any time, a general discharge member may rejoin and be integrated into a platoon of their choosing by utilizing the \"reenlistment\" channel. S-3 Recruitment / S-1 Administration will guide returning members or those coming out of retirement to this channel.",
+     "Once they have entered the reenlistment pipeline, the Platoon Sergeant of the platoon they wish to rejoin will handle their placement and ensuring their prior roles are returned if not already handled.",
+     "General Discharges have priority upon return over lesser types of discharges.\n\nStatus of ARC/Scout/Ranger may NOT be permitted to be returned."
+    ]
+   },
+   {
+    "name": "Stipulated",
+    "points": [
+     "Stipulated discharges are granted to members who do have an ACTIVE history of disciplinary actions or counselings but isn't a grave offence.",
+     "At time of discharge, they can request to be moved to a retired section or to leave the unit and still be allowed to maintain all Quals/Certs/Awards and their rank up to VCT.",
+     "Upon their return, depending on the stipulation afforded to them upon discharge, some roles, quals, or restrictions may be applied during a probationary phase. All active DA points upon retirement will carry over upon their return, but will be allowed to dissipate after their allotted time.",
+     "Stipulations placed upon members will always be recorded and the discharge will always be made aware of said stipulations.",
+     "Ex. CT-0001 \"Snuffy\" got into a verbal argument with another member and blue-on-blue'd a fellow member, receiving 2 DA points. For them to return with awards, they would NOT be allowed to rejoin a specific platoon and will carry over their 2 DA points upon return. Additionally at that time they were using a DMR to do said act, so the Marksman qualification was revoked.",
+     "Once they have entered the reenlistment pipeline, the Platoon Sergeant of the platoon they wish to rejoin will handle their placement and ensuring their prior roles are returned if not already handled.\n\nStatus of ARC/Scout/Ranger may NOT be permitted to be returned."
+    ]
+   },
+   {
+    "name": "Dishonorable",
+    "points": [
+     "Dishonorable discharges are granted to members who do have an ACTIVE history of disciplinary actions or counselings for GRAVE offences and are NOT PERMITTED to rejoin the unit or upon their return must start over from CR with no return of Quals/Certs/Awards. Leader discretion.",
+     "Upon their return, All active DA points upon discharge will carry over upon their return, but will be allowed to dissipate after their allotted time."
+    ]
+   }
+  ],
+  "stepsTitle": "Discharge /\nRetirement",
+  "steps": [
+   {
+    "label": "STEP 1",
+    "text": "Upon deciding to retire, one should reach out to their PLATOON SERGEANT. Their platoon sergeant and leader will determine the type of discharge you receive and to establish any sort of stipulations at this time with the discharge present.\n\nRecording Discharge Stipulations in the DA channel.\n\nSCT+ is the minimum for retirement."
+   },
+   {
+    "label": "STEP 2",
+    "text": "Once the discharge type is established, the Discharged must decide if they wish to enter a \"Retired\" status or not. Being retired grants one the retired role and limited access to channels in the discord, without the need to be pinged for events. All roles pertaining to Quals/Certs/Awards/Ranks will be maintained. Deciding NOT to stay in the server, the Platoon Sergeant will then document or screenshot the awards and log them within the S-1 \"REMOVING\" channel."
+   },
+   {
+    "label": "STEP 3",
+    "text": "Once the discharge has been logged, they will then receive their new roles or they will be free to leave the server. Should one leave WITHOUT consulting their platoon sergeant, they will receive a GENERAL discharge by default unless they qualify for Stipulated / Dishonorable. The Quals/Certs/Awards/Ranks of the person who left will be ATTEMPTED to be saved and recorded. However failure to follow step(s) 1 and 2 leaves the responsibility upon the discharge should they return and not receive all their proper roles."
+   },
+   {
+    "label": "STEP 4",
+    "text": "If the Retiree decides to return to the unit, they will ping the @Platoon Sergeant or the specific platoon sergeant of the platoon they wish to rejoin within the \"reenlistment\" channel. All members who stay in the discord upon retirement will have automatic access to this channel.\n\nIf they left the server, once they make contact with an S-3 Recruiter, they will be asked if they are a returning member or a new recruit. Once identified as a returning member, they will be given access to the \"reenlistment\" channel and follow the step above for contacting a platoon sergeant."
+   },
+   {
+    "label": "STEP 5",
+    "text": "Once you have made contact with the Platoon Sergeant, they will situate roles and reconfirm discharge status before leaving and any stipulations assigned. Stipulations will be recorded in the STAFF Disciplinary Action channel under one's previous file. Should that person have been discharged for a prolonged period of time, allowing certain Quals/Certs to have changed in class content, they may be required to retake said training.\n\nOnce assigned to a platoon's active reserve, they will then follow the process for joining a squad just like any other reservist."
+   },
+   {
+    "label": "STEP 6",
+    "text": "Those under stipulation or dishonorable may take secondary preference over new members in the active reserve contingent who have not accrued a DA presence.\n\nHonorable Discharges returning and planned to fill a leadership billet may need to retake SULC depending on the length of their departure and the class content of SULC."
+   }
+  ]
+ },
+ "ranks": {
+  "infantry": [
+   {
+    "cell": "Clone Recruit\n(CR)",
+    "name": "Clone Recruit",
+    "abbr": "CR",
+    "description": "Clone Recruits are fresh from Kamino with only minimal training to their name at best. After being greeted, interviewed and processed by a Recruiter; Clone Recruits report to GENTAC to undergo training and instruction per unit standards. Upon successful completion, Clone Recruits are applicable for promotion to the rank of Clone Trooper.",
+    "notes": "Weapon Qualification Limit: 1",
+    "requirements": "Rank Requirements:\n- Complete Entry Interview",
+    "insignia": "rank-inf-cr.png"
+   },
+   {
+    "cell": "Clone Trooper\n(CT)",
+    "name": "Clone Trooper",
+    "abbr": "CT",
+    "description": "Clone Troopers are the new fighting members of the unit. Taking up positions in Infantry Squads; Clone Troopers are expected to begin to hone their skills and integrate into the units culture. It is here that one should begin to consider what career they would like to pursue in the unit.",
+    "notes": "Weapon Qualification Limit: 2\nPlatoon Detachment Applicable",
+    "requirements": "Rank Requirements:\n- Successfully Pass GENTAC Course",
+    "insignia": "rank-inf-ct.png"
+   },
+   {
+    "cell": "Senior Clone Trooper\n(SCT)",
+    "name": "Senior Clone Trooper",
+    "abbr": "SCT",
+    "description": "Senior Clone Troopers are experienced members of the unit whom are entrusted with an expansion of weapons platforms as well as shown growth in the unit as a valued member. At this rank Troopers may pursue application to the Aviation, Special Forces, and Naval Elements of the unit.",
+    "notes": "Weapon Qualification Limit: 3\nAviation - Navy (Zeus)\nRanger Applicable",
+    "requirements": "Rank Requirements:\nAchieve 10 Operation Points",
+    "insignia": "rank-inf-sct.png"
+   },
+   {
+    "cell": "Veteran Clone Trooper\n(VCT)",
+    "name": "Veteran Clone Trooper",
+    "abbr": "VCT",
+    "description": "Veteran Clone Troopers are members of the unit whom have come into their areas of expertise and passion within the unit. Having a wide range of experiences and qualifications to their credit. VCTs usually have a set career path chosen in S-Shops, leadership, or qualification expertise.",
+    "notes": "Weapon Qualification Limit: 4",
+    "requirements": "Rank Requirements:\nAchieve 25 Operation Points",
+    "insignia": "rank-inf-vct.png"
+   },
+   {
+    "cell": "Clone Lance Corporal\n(CLC)",
+    "name": "Clone Lance Corporal",
+    "abbr": "CLC",
+    "description": "Clone Lance Corporals are the senior-most enlisted personnel of the Company, having mastered an area of expertise and become a mentor in their chosen craft. Be it in a specific qualification, unit detachment, or expertise in the unit. CLC's are veterans of several campaigns with a long-standing history of honorable service to the 41st Elite Corps.",
+    "notes": "Weapon Qualification Cap: 5",
+    "requirements": "Rank Requirements:\nAchieve 40 Operation Points",
+    "insignia": "rank-inf-clc.png"
+   },
+   {
+    "cell": "Clone Corporal\n(CPL)",
+    "name": "Clone Corporal",
+    "abbr": "CPL",
+    "description": "Clone Corporal is the first rank of Leadership within Kaid Company, being only achievable by those who have completed the Small Unit Leadership Course (SULC) and hold the billet of Fireteam Leader or above. CPL's are considered role models and are responsible for all aspects of their fireteam and its members within the unit.",
+    "notes": "Weapon Qualification Cap: 6",
+    "requirements": "Rank Requirements:\n- Achieve 45 Operation Points\n- Pass SULC\n- Fireteam Leader or Above",
+    "insignia": "rank-inf-cpl.png"
+   },
+   {
+    "cell": "Clone Sergeant\n(CS)",
+    "name": "Clone Sergeant",
+    "abbr": "CS",
+    "description": "Clone Sergeants are considered the backbone of a platoons leadership and are responsible for a Squad within the platoon or special elements. Managing it's functionality within the platoons composition and overseeing the fireteams that comprise it. Sergeants often take up responsibilities in S-Shops in addition to their squad duties.",
+    "notes": "Weapon Qualification Cap: 7",
+    "requirements": "Rank Requirements:\n- Achieve 50 Operation Points\n- Pass SULC\n- Squad Leader or Above",
+    "insignia": "rank-inf-cs.png"
+   },
+   {
+    "cell": "Clone Staff Sergeant\n(CSS)",
+    "name": "Clone Staff Sergeant",
+    "abbr": "CSS",
+    "description": "A Clone Staff Sergeant is the rank at which a Platoon Sergeant may aspire. Acting as the senior NCO of the platoon and the Platoon Leaders right hand in matters pertaining to operational capacity. A CSS is responsible for keeping the platoons weekly training schedule and upholding unit standards in the squads.",
+    "notes": "Weapon Qualification Cap: 8",
+    "requirements": "Rank Requirements:\n- Achieve 60 Operation Points\n- Pass SULC\n- Platoon Sergeant or Above",
+    "insignia": "rank-inf-css.png"
+   },
+   {
+    "cell": "Clone Sergeant Major\n(CSM)",
+    "name": "Clone Sergeant Major",
+    "abbr": "CSM",
+    "description": "The Clone Sergeant Major are the senior non-commissioned officers within the two Company's comprising Kaid Battalion. The CSM is the lead authority for all enlisted matters and issues outside of S-Shop jurisdiction and is often entrusted with mentoring Staff Sergeants and Sergeants alike as well as managing company training regimens, upholding unit standards and advising command.",
+    "notes": "Weapon Qualification Cap: 10",
+    "requirements": "Rank Requirements:\n- Achieve 70 Operation Points\n- Pass SULC\n- Company Sergeant Major",
+    "insignia": "rank-inf-csm.png"
+   },
+   {
+    "cell": "Clone Battalion Sergeant Major\n(BSM)",
+    "name": "Clone Battalion Sergeant Major",
+    "abbr": "BSM",
+    "description": "The Battalion Sergeant Major is the senior-most Non-Commissioned Officer of the unit and is responsible for administrative oversight of detachments as well as the units NCO Corps. The CSM is the lead authority for all enlisted matters and issues outside of S-Shop jurisdiction and is often entrusted with mentoring squad leaders and those new to command.",
+    "notes": "Weapon Qualification Cap: 10",
+    "requirements": "Rank Requirements:\n- Achieve 70 Operation Points\n- Pass SULC\n- Company Sergeant Major",
+    "insignia": "rank-inf-bsm.png"
+   },
+   {
+    "cell": "Clone Lieutenant\n(CL)",
+    "name": "Clone Lieutenant",
+    "abbr": "CL",
+    "description": "Clone Lieutenant is the senior-most rank that a Platoon Leader may possess after time spent in the billet. CL's are viewed as examples of leadership and administrative command within the unit and often have proven proficiency in their duties through time in service and excellent service.",
+    "notes": "Weapon Qualification Cap: 10",
+    "requirements": "Rank Requirements:\n- Achieve 70 Operation Points\n- Pass SULC\n- Platoon Leader or Above",
+    "insignia": "rank-inf-cl.png"
+   },
+   {
+    "cell": "Clone Captain\n(CC)",
+    "name": "Clone Captain",
+    "abbr": "CC",
+    "description": "The Clone Captain is the commanding officer of a Company and is the administrative overseer of the Company. Supervising all elements of the Company and it's attached sub-units. The CC is responsible for the strategic deployment of the platoons and support elements of the unit as well as determining the course of the current campaign.",
+    "notes": "Weapon Qualification Cap: 10",
+    "requirements": "Rank Requirements:\n- Company Commander",
+    "insignia": "rank-inf-cc.png"
+   },
+   {
+    "cell": "Battalion Commander\n(BC)",
+    "name": "Battalion Commander",
+    "abbr": "BC",
+    "description": "The Clone Battalion Commander is the commanding officer of Kaid Battalion and is the executive authority of the unit. Overseeing all elements of Kaid and it's attached sub-units. The BC is responsible for the strategic deployment of the platoons and support elements of the unit as well as determining the course of the current campaign.",
+    "notes": "Weapon Qualification Cap: 10",
+    "requirements": "Rank Requirements:\n- Unit Leader",
+    "insignia": "rank-inf-bc.png"
+   }
+  ],
+  "fynock": [
+   {
+    "cell": "Clone Flight Recruit\n(CXC)",
+    "name": "Clone Flight Recruit",
+    "abbr": "CXC",
+    "description": "Recent addition to Fynock. The lowest rank that a clone pilot can attain upon joining Fynock Air Wing after passing Flight School. These future pilots are eager to learn as they fully integrate into Fynock.\n\n\n\nWeapon Qualification Cap : 2",
+    "insignia": "rank-fyn-cxc.png"
+   },
+   {
+    "cell": "Clone Flight Ensign\n(CX)",
+    "name": "Clone Flight Ensign",
+    "abbr": "CX",
+    "description": "A billeted member of Fynock. The next rank a Pilot can attain with enough experience after joining in terms of flight time and missions completed. They are well versed in Fynock operations and can handle whatever tasks they are assigned.\n\n\nWeapon Qualification Cap : 3",
+    "insignia": "rank-fyn-cx.png"
+   },
+   {
+    "cell": "Clone Flight Ensign,Veteran\n(CXV)",
+    "name": "Clone Flight Ensign,Veteran",
+    "abbr": "CXV",
+    "description": "A Veteran member of Fynock. One who has distinguished themselves throughout multiple campaigns, operations, and missions. As Aces of the 41st Elite Corps, these pilots can take down threats with extreme prejudice and lethality.\n\n\nWeapon Qualification Cap : 4",
+    "insignia": "rank-fyn-cxv.png"
+   },
+   {
+    "cell": "Clone Flight Lieutenant JG\n(CXP)",
+    "name": "Clone Flight Lieutenant JG",
+    "abbr": "CXP",
+    "description": "The Flight Leader of an Flight. These pilots are responsible for flight operation planning during Platoon operations.\n\n\n\n\n\nWeapon Qualification Cap : 5",
+    "insignia": "rank-fyn-cxp.png"
+   },
+   {
+    "cell": "Clone Flight 2nd LT\n(CXS)",
+    "name": "Clone Flight 2nd LT",
+    "abbr": "CXS",
+    "description": "The Flight Leader of an Flight. These pilots are responsible for flight operation planning during Platoon operations.\n\n\n\n\n\nWeapon Qualification Cap : 6",
+    "insignia": "rank-fyn-cxs.png"
+   },
+   {
+    "cell": "Clone Flight Lieutenant\n(CXL)",
+    "name": "Clone Flight Lieutenant",
+    "abbr": "CXL",
+    "description": "The Squadron Leader of a Squadron. This Pilot is the overall supervisor and operational planning lead for the squadron across the it's corresponding Company.\n\n\n\n\nWeapon Qualification Cap : 8",
+    "insignia": "rank-fyn-cxl.png"
+   },
+   {
+    "cell": "Clone Flight Lieutenant Commander\n(CXR)",
+    "name": "Clone Flight Lieutenant Commander",
+    "abbr": "CXR",
+    "description": "The Air Wing Commander Head of Fynock. This Pilot is the overall supervisor and operational planning lead for Fynock across the Unit.\n\n\n\n\nWeapon Qualification Cap : 10",
+    "insignia": "rank-fyn-cxr.png"
+   }
+  ],
+  "navy": [
+   {
+    "cell": "ENSIGN\n(ENS)",
+    "name": "ENSIGN",
+    "abbr": "ENS",
+    "description": "Zeus Trainees are new members of the unit's Zeus Team that are still being trained. They are able to run Fun Ops and Co-Zeus for their platoon's events while they learn from more senior members.",
+    "insignia": "rank-navy-ens.png"
+   },
+   {
+    "cell": "LIEUTENANT JR. GRADE\n(LTJG)",
+    "name": "LIEUTENANT JR. GRADE",
+    "abbr": "LTJG",
+    "description": "Junior Zeus's are full-time staff that are trusted to run Side Ops for the unit as well as Co-Zeus for their platoon's weekly operation.",
+    "insignia": "rank-navy-ltjg.png"
+   },
+   {
+    "cell": "LIEUTENANT\n(LT)",
+    "name": "LIEUTENANT",
+    "abbr": "LT",
+    "description": "Experienced Zeus's are full-time staff that are trusted to run Side Ops for the unit as well as Co-Zeus for their platoon's weekly operation.",
+    "insignia": "rank-navy-lt.png"
+   },
+   {
+    "cell": "LIEUTENANT COMMANDER\n(LCDR)",
+    "name": "LIEUTENANT COMMANDER",
+    "abbr": "LCDR",
+    "description": "The Senior Zeus's are responsible for the running of their platoon's operations. They are expert mapmakers and tasked with coordinating their Co-Zeus's in running operations. One per platoon.",
+    "insignia": "rank-navy-lcdr.png"
+   },
+   {
+    "cell": "COMMANDER\n(CDR)",
+    "name": "COMMANDER",
+    "abbr": "CDR",
+    "description": "The Executive Officer is responsible for assisting the Head Zeus in their duties as well as ensurance of the unit's Zeus programs and running the unit's servers. Having administrative authority in matters pertaining to operational design and efficiency.",
+    "insignia": "rank-navy-cdr.png"
+   },
+   {
+    "cell": "CAPTAIN\n(CAPT)",
+    "name": "CAPTAIN",
+    "abbr": "CAPT",
+    "description": "The Head Zeus is responsible for all Zeus training as well as oversight of the unit's Zeus program and running the unit's servers. Has final say on all matters of operation design.",
+    "insignia": "rank-navy-capt.png"
+   }
+  ]
+ },
+ "leadership": {
+  "title": "UNIT LEADERSHIP",
+  "groups": [
+   {
+    "heading": "",
+    "leaders": [
+     {
+      "cell": "Navy Command\nCAPT T. Roben (Daara)",
+      "billet": "Navy Command",
+      "holder": "CAPT T. Roben (Daara)",
+      "callsignLabel": "Callsign",
+      "callsign": "Serenity Actual",
+      "photo": "lead-navy-command.webp"
+     },
+     {
+      "cell": "Battalion Commander\nBC-4973 \"Merrik\"",
+      "billet": "Battalion Commander",
+      "holder": "BC-4973 \"Merrik\"",
+      "callsignLabel": "Callsign",
+      "callsign": "Kaid Actual",
+      "photo": "lead-bc.webp"
+     },
+     {
+      "cell": "Battalion Sergeant Major\nBSM-1362 \"Sigs\"",
+      "billet": "Battalion Sergeant Major",
+      "holder": "BSM-1362 \"Sigs\"",
+      "callsignLabel": "Callsign",
+      "callsign": "Kaid - 2",
+      "photo": "lead-bsm.webp"
+     }
+    ]
+   },
+   {
+    "heading": "COMPANY ELEMENT LEADERSHIP",
+    "leaders": [
+     {
+      "cell": "First Company Commander\nCC-1861 \"Annex\"",
+      "billet": "First Company Commander",
+      "holder": "CC-1861 \"Annex\"",
+      "callsignLabel": "Callsign",
+      "callsign": "Katarn Actual",
+      "photo": "lead-1co-cc.webp"
+     },
+     {
+      "cell": "1st Company\nSergeant Major",
+      "billet": "1st Company Sergeant Major",
+      "holder": "",
+      "callsignLabel": "Callsign",
+      "callsign": "Katarn - 2",
+      "photo": "lead-emblem.webp"
+     },
+     {
+      "cell": "Second Company Commander\nCC-1227 \"Cardinal\"",
+      "billet": "Second Company Commander",
+      "holder": "CC-1227 \"Cardinal\"",
+      "callsignLabel": "Callsign",
+      "callsign": "Tusken Actual",
+      "photo": "lead-2co-cc.webp"
+     },
+     {
+      "cell": "2nd Company\nSergeant Major",
+      "billet": "2nd Company Sergeant Major",
+      "holder": "",
+      "callsignLabel": "Callsign",
+      "callsign": "Tusken - 2",
+      "photo": "lead-emblem.webp"
+     }
+    ]
+   },
+   {
+    "heading": "PLATOON LEADERSHIP",
+    "leaders": [
+     {
+      "cell": "Acklay Platoon Commander\nCL-7777 \"Odin\"",
+      "billet": "Acklay Platoon Commander",
+      "holder": "CL-7777 \"Odin\"",
+      "callsignLabel": "Callsign",
+      "callsign": "Acklay Actual"
+     },
+     {
+      "cell": "Banshee Platoon Commander\nCL-8140 \"Joko\"",
+      "billet": "Banshee Platoon Commander",
+      "holder": "CL-8140 \"Joko\"",
+      "callsignLabel": "Callsign",
+      "callsign": "Banshee Actual"
+     },
+     {
+      "cell": "Chimaera Platoon Commander\nCL-4586 \"Zen\"",
+      "billet": "Chimaera Platoon Commander",
+      "holder": "CL-4586 \"Zen\"",
+      "callsignLabel": "Callsign",
+      "callsign": "Chimaera Actual"
+     },
+     {
+      "cell": "Drexl Platoon Commander\nCL-2602 \"Selene\"",
+      "billet": "Drexl Platoon Commander",
+      "holder": "CL-2602 \"Selene\"",
+      "callsignLabel": "Callsign",
+      "callsign": "Drexl Actual"
+     },
+     {
+      "cell": "Vornskr Leader\nBSM-1362 \"Sigs\"",
+      "billet": "Vornskr Leader",
+      "holder": "BSM-1362 \"Sigs\"",
+      "callsignLabel": "Callsign",
+      "callsign": "Vornskr Actual"
+     },
+     {
+      "cell": "Acklay Platoon Sergeant\nCSS-8335 \"Bees\"",
+      "billet": "Acklay Platoon Sergeant",
+      "holder": "CSS-8335 \"Bees\"",
+      "callsignLabel": "Callsign",
+      "callsign": "Acklay 2"
+     },
+     {
+      "cell": "Banshee Platoon Sergeant\n\nCSS-1622 \"Dilham\"",
+      "billet": "Banshee Platoon Sergeant",
+      "holder": "CSS-1622 \"Dilham\"",
+      "callsignLabel": "Callsign",
+      "callsign": "Banshee 2"
+     },
+     {
+      "cell": "Chimaera Platoon Sergeant\nCSS-5732 \"Helix\"",
+      "billet": "Chimaera Platoon Sergeant",
+      "holder": "CSS-5732 \"Helix\"",
+      "callsignLabel": "Callsign",
+      "callsign": "Chimaera 2"
+     },
+     {
+      "cell": "Drexl Platoon Sergeant\nCSS-1259 \"Zik\"",
+      "billet": "Drexl Platoon Sergeant",
+      "holder": "CSS-1259 \"Zik\"",
+      "callsignLabel": "Callsign",
+      "callsign": "Drexl 2"
+     },
+     {
+      "cell": "Vornskr Platoon Sergeant\nCSS-0626 \"Argo\"",
+      "billet": "Vornskr Platoon Sergeant",
+      "holder": "CSS-0626 \"Argo\"",
+      "callsignLabel": "Callsign",
+      "callsign": "Vornskr 2"
+     }
+    ]
+   },
+   {
+    "heading": "DETACHMENT LEADERSHIP",
+    "leaders": [
+     {
+      "cell": "Fynock Commander\nCXR-9189 \"Q-Ball\"",
+      "billet": "Fynock Commander",
+      "holder": "CXR-9189 \"Q-Ball\"",
+      "callsignLabel": "Callsign",
+      "callsign": "Fynock Actual"
+     },
+     {
+      "cell": "Fynock SNCO\nN/A",
+      "billet": "Fynock SNCO",
+      "holder": "N/A",
+      "callsignLabel": "Callsign",
+      "callsign": "Fynock Besh"
+     },
+     {
+      "cell": "Wyrwulf Section Leader\nCS-5020 \"Nahlens\"",
+      "billet": "Wyrwulf Section Leader",
+      "holder": "CS-5020 \"Nahlens\"",
+      "callsignLabel": "Callsign",
+      "callsign": "Wyrwulf Actual"
+     },
+     {
+      "cell": "Rancor Section Leader\nCS-4684 \"Ace\"",
+      "billet": "Rancor Section Leader",
+      "holder": "CS-4684 \"Ace\"",
+      "callsignLabel": "Callsign",
+      "callsign": "Rancor Actual"
+     },
+     {
+      "cell": "Fynock 1st Squadron Leader\nCXL-2552 \"Grim\"",
+      "billet": "Fynock 1st Squadron Leader",
+      "holder": "CXL-2552 \"Grim\"",
+      "callsignLabel": "Callsign",
+      "callsign": "Fynock Cresh"
+     },
+     {
+      "cell": "Navy Command XO\nN/A",
+      "billet": "Navy Command XO",
+      "holder": "N/A",
+      "callsignLabel": "Callsign",
+      "callsign": "Diligence Actual"
+     },
+     {
+      "cell": "Howler Section Leader\nCS-9999 \"Puma\"",
+      "billet": "Howler Section Leader",
+      "holder": "CS-9999 \"Puma\"",
+      "callsignLabel": "Callsign",
+      "callsign": "Howler Actual"
+     },
+     {
+      "cell": "Varactyl Section Leader\nCS-4242 \"Seraph\"",
+      "billet": "Varactyl Section Leader",
+      "holder": "CS-4242 \"Seraph\"",
+      "callsignLabel": "Callsign",
+      "callsign": "Varactyl Actual"
+     },
+     {
+      "cell": "Fynock 2nd Squadron Leader\nCXL-1170 \"Sierra\"",
+      "billet": "Fynock 2nd Squadron Leader",
+      "holder": "CXL-1170 \"Sierra\"",
+      "callsignLabel": "Callsign",
+      "callsign": "Fynock Dorn"
+     },
+     {
+      "cell": "Gundark Section Leader\nN/A",
+      "billet": "Gundark Section Leader",
+      "holder": "N/A",
+      "callsignLabel": "Callsign",
+      "callsign": "Gundark Actual"
+     }
+    ]
+   }
+  ]
+ },
+ "quals": {
+  "title": "Qualifications & Certifications",
+  "qualifications": {
+   "heading": "Qualifications",
+   "about": "Qualifications are trainings centered around weapons platforms and basic weapons displacements per element in the unit. These are restricted to the needs of your element, your rank, and Navy qualification for Force User.",
+   "items": [
+    {
+     "text": "Force User (FU)\n- Restricted to Navy Personnel",
+     "abbr": "FU"
+    },
+    {
+     "text": "Marksman (MM)",
+     "abbr": "MM"
+    },
+    {
+     "text": "Close Quarters Battle (CQB)",
+     "abbr": "CQB"
+    },
+    {
+     "text": "Anti-Tank (AT)",
+     "abbr": "AT"
+    },
+    {
+     "text": "Auto-Rifle (AR)",
+     "abbr": "AR"
+    },
+    {
+     "text": "Grenadier (GREN)",
+     "abbr": "GREN"
+    },
+    {
+     "text": "Rifleman (RFL)",
+     "abbr": "RFL"
+    }
+   ]
+  },
+  "certifications": {
+   "heading": "Certifications",
+   "about": "Certifications are trainings centered around additional equipment, vehicles, and skills and are not restricted by rank but rather by relevance to current billeting.",
+   "items": [
+    {
+     "text": "Ranger Tab (RGR)",
+     "abbr": "RGR"
+    },
+    {
+     "text": "Squad Leadership Course (SULC)",
+     "abbr": "SULC"
+    },
+    {
+     "text": "Fireteam Leadership (SULC)",
+     "abbr": "SULC"
+    },
+    {
+     "text": "Ranger Leadership Course (SULC)",
+     "abbr": "SULC"
+    },
+    {
+     "text": "Clone Drone Operator (DO)",
+     "abbr": "DO"
+    },
+    {
+     "text": "Ranger Reconnaissance Course\n(RRC)",
+     "abbr": "RRC"
+    },
+    {
+     "text": "Electronics Warfare Specialist (EWS)",
+     "abbr": "EWS"
+    },
+    {
+     "text": "Zeus\n- & Corresponding tiers",
+     "abbr": ""
+    },
+    {
+     "text": "Fixed-Wing Aviation",
+     "abbr": ""
+    },
+    {
+     "text": "Rotary Aviation",
+     "abbr": ""
+    },
+    {
+     "text": "Basic Rotary",
+     "abbr": ""
+    },
+    {
+     "text": "Armor Crew",
+     "abbr": ""
+    },
+    {
+     "text": "Mechanized Crew",
+     "abbr": ""
+    },
+    {
+     "text": "Crew Chief",
+     "abbr": ""
+    },
+    {
+     "text": "Airborne School",
+     "abbr": ""
+    },
+    {
+     "text": "Light Cavalry Crewman",
+     "abbr": ""
+    },
+    {
+     "text": "Emplaced Weapons",
+     "abbr": ""
+    },
+    {
+     "text": "Clone Combat Engineer (ENG)",
+     "abbr": "ENG"
+    },
+    {
+     "text": "Clone Combat Medic (MED)",
+     "abbr": "MED"
+    },
+    {
+     "text": "Clone Field Radio Operator (RTO)",
+     "abbr": "RTO"
+    },
+    {
+     "text": "Diplomatic Relations (DR)",
+     "abbr": "DR"
+    }
+   ]
+  }
+ },
+ "billets": {
+  "groups": [
+   {
+    "heading": "Weapon Kits (Quals)",
+    "billets": [
+     {
+      "name": "Rifleman",
+      "id": "rifleman",
+      "fields": [
+       [
+        "Permissions",
+        "60 PTS for DC-15C"
+       ],
+       [
+        "Authorized Weapons",
+        "DC-15 Variants"
+       ],
+       [
+        "Additional Equipment",
+        "Ammo Backpack or\nAT Ammo Backpack"
+       ],
+       [
+        "Unit Cap",
+        "NONE"
+       ],
+       [
+        "Disposable Launcher",
+        "AT Qualification & SL Approval Needed"
+       ],
+       [
+        "3rd PLT Rules",
+        "NONE"
+       ]
+      ]
+     },
+     {
+      "name": "Autorifleman",
+      "id": "autorifleman",
+      "fields": [
+       [
+        "Permissions",
+        "None"
+       ],
+       [
+        "Authorized Weapons",
+        "DC-15L / Z-6 / 38X(Rangers)"
+       ],
+       [
+        "Restriction",
+        "Cannot have x2 15Ls or X2 Z6s in one squad"
+       ],
+       [
+        "Unit Cap",
+        "x2 PER SQUAD"
+       ],
+       [
+        "Disposable Launcher",
+        "NONE"
+       ],
+       [
+        "3rd PLT Rules",
+        "x1 AR Per Squad"
+       ]
+      ]
+     },
+     {
+      "name": "CQB Specialist",
+      "id": "cqb-specialist",
+      "fields": [
+       [
+        "Permissions",
+        "None"
+       ],
+       [
+        "Authorized Weapons",
+        "DP-23 / DC-15S"
+       ],
+       [
+        "Additional Equipment",
+        "NONE"
+       ],
+       [
+        "Unit Cap",
+        "x2 PER SQUAD"
+       ],
+       [
+        "Disposable Launcher",
+        "AT Qualification & SL Approval Needed"
+       ],
+       [
+        "3rd PLT Rules",
+        "NONE"
+       ]
+      ]
+     },
+     {
+      "name": "Grenadier",
+      "id": "grenadier",
+      "fields": [
+       [
+        "Permissions",
+        "None"
+       ],
+       [
+        "Authorized Weapons",
+        "DC-15 UGL Variants"
+       ],
+       [
+        "Additional Equipment",
+        "NONE"
+       ],
+       [
+        "Unit Cap",
+        "X3 PER SQUAD"
+       ],
+       [
+        "Disposable Launcher",
+        "AT Qualification & SL Approval Needed"
+       ],
+       [
+        "3rd PLT Rules",
+        "NONE"
+       ]
+      ]
+     },
+     {
+      "name": "Anti-Tank",
+      "id": "anti-tank",
+      "fields": [
+       [
+        "Permissions",
+        "None"
+       ],
+       [
+        "Authorized Weapons",
+        "DC-15A/S\nPLX-1 / RPS-6 / RPS-6 (SR) / T-15"
+       ],
+       [
+        "Restriction",
+        "X2 PLX PER PLT\nX1 T-15 PER SQUAD"
+       ],
+       [
+        "Unit Cap",
+        "x2 PER SQUAD"
+       ],
+       [
+        "Disposable Launcher",
+        "SL Approval Needed"
+       ],
+       [
+        "3rd PLT Rules",
+        "x1 AT Kit (T-15 Only)\nPer Squad"
+       ]
+      ]
+     },
+     {
+      "name": "Marksman",
+      "id": "marksman",
+      "fields": [
+       [
+        "Permissions",
+        "None"
+       ],
+       [
+        "Authorized Weapons",
+        "DC-15 LE DMR / 15X(Rangers)"
+       ],
+       [
+        "Additional Equipment",
+        "NONE"
+       ],
+       [
+        "Unit Cap",
+        "X1 PER SQUAD\nX4 PER PLATOON"
+       ],
+       [
+        "Disposable Launcher",
+        "NONE"
+       ],
+       [
+        "3rd PLT Rules",
+        "None"
+       ]
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "Infantry Billets (Certs)",
+    "billets": [
+     {
+      "name": "Medic",
+      "id": "medic",
+      "fields": [
+       [
+        "Permissions",
+        "Medic"
+       ],
+       [
+        "Authorized Kits",
+        "Rifleman, Scatter Blaster"
+       ],
+       [
+        "Requirement",
+        "Medic Certification"
+       ],
+       [
+        "Unit Cap",
+        "x2 PER SQUAD"
+       ],
+       [
+        "Disposable Launcher",
+        "NONE"
+       ]
+      ],
+      "image": "billet-medic.webp"
+     },
+     {
+      "name": "Radio Operator",
+      "id": "radio-operator",
+      "fields": [
+       [
+        "Permissions",
+        "Galaxy S7 ATAK"
+       ],
+       [
+        "Authorized Kits",
+        "Rifleman, Grenadier, Scatter Blaster, Marksman"
+       ],
+       [
+        "Requirement",
+        "Radio Operator Certification"
+       ],
+       [
+        "Unit Cap",
+        "x1 PER SQUAD"
+       ],
+       [
+        "Disposable Launcher",
+        "AT Qualification & SL Approval Needed\n(Unless using MM kit)"
+       ]
+      ],
+      "image": "billet-radio-operator.webp"
+     },
+     {
+      "name": "Combat Engineer",
+      "id": "combat-engineer",
+      "fields": [
+       [
+        "Permissions",
+        "ENG+EOD"
+       ],
+       [
+        "Authorized Kits",
+        "Rifleman, Scatter Blaster"
+       ],
+       [
+        "Requirement",
+        "Engineer Certification"
+       ],
+       [
+        "Unit Cap",
+        "x1 PER SQUAD\nx3 PER PLATOON"
+       ],
+       [
+        "Disposable Launcher",
+        "AT Qualification & SL Approval Needed"
+       ]
+      ],
+      "image": "billet-combat-engineer.webp"
+     },
+     {
+      "name": "Airborne",
+      "id": "airborne",
+      "fields": [
+       [
+        "Permissions",
+        "Based on Billet"
+       ],
+       [
+        "Authorized Kits",
+        "Based on Billet"
+       ],
+       [
+        "Requirement",
+        "Airborne Jump School"
+       ],
+       [
+        "Restriction",
+        "Jump Pack restricted to Bn & Chimaera OPs"
+       ],
+       [
+        "Disposable Launcher",
+        "Based on Billet"
+       ]
+      ],
+      "image": "billet-airborne.webp"
+     },
+     {
+      "name": "Fire Team Leader",
+      "id": "fire-team-leader",
+      "fields": [
+       [
+        "Permissions",
+        "Galaxy S7 ATAK (GS7)"
+       ],
+       [
+        "Authorized Kits",
+        "May fill needed squad billet kits (With Qual/Cert)"
+       ],
+       [
+        "Requirement",
+        "TL SULC"
+       ],
+       [
+        "Unit Cap",
+        "x2 PER SQUAD"
+       ],
+       [
+        "Disposable Launcher",
+        "AT Qualification & SL Approval Needed"
+       ]
+      ],
+      "image": "billet-fire-team-leader.webp"
+     },
+     {
+      "name": "Squad Leader",
+      "id": "squad-leader",
+      "fields": [
+       [
+        "Permissions",
+        "MEDIC(Cert Needed)+ GS7"
+       ],
+       [
+        "Authorized Kits",
+        "Rifleman, Grenadier, CQB"
+       ],
+       [
+        "Requirement",
+        "SL SULC\nRadio Operator"
+       ],
+       [
+        "Unit Cap",
+        "x3 PER PLATOON"
+       ],
+       [
+        "Disposable Launcher",
+        "AT Qualification Needed"
+       ]
+      ],
+      "image": "billet-squad-leader.webp"
+     }
+    ]
+   },
+   {
+    "heading": "Platoon Leadership",
+    "billets": [
+     {
+      "name": "Platoon Medic",
+      "id": "platoon-medic",
+      "fields": [
+       [
+        "Permissions",
+        "MEDIC + GS7"
+       ],
+       [
+        "Authorized Kits",
+        "Rifleman, Scatter Blaster"
+       ],
+       [
+        "Requirement",
+        "Medic Certification"
+       ],
+       [
+        "Disposable Launcher",
+        "NONE"
+       ],
+       [
+        "Squad Shield",
+        "1x"
+       ]
+      ],
+      "image": "billet-platoon-medic.webp"
+     },
+     {
+      "name": "Platoon Radio Operator",
+      "id": "platoon-radio-operator",
+      "fields": [
+       [
+        "Permissions",
+        "Galaxy S7 ATAK"
+       ],
+       [
+        "Authorized Kits",
+        "Rifleman, Grenadier, Scatter Blaster, Marksman"
+       ],
+       [
+        "Requirement",
+        "Radio Operator\nDrone Operator"
+       ],
+       [
+        "Disposable Launcher",
+        "AT Qualification & PL Approval Needed\n(Unless using MM kit)"
+       ],
+       [
+        "Squad Shield",
+        "NONE"
+       ]
+      ],
+      "image": "billet-platoon-radio-operator.webp"
+     },
+     {
+      "name": "Platoon Sergeant",
+      "id": "platoon-sergeant",
+      "fields": [
+       [
+        "Permissions",
+        "MEDIC/ENG/EOD + GS7"
+       ],
+       [
+        "Authorized Kits",
+        "Rifleman, Grenadier, Scatter Blaster"
+       ],
+       [
+        "Requirement",
+        "SL SULC\nRadio Operator"
+       ],
+       [
+        "Disposable Launcher",
+        "Qualification Needed"
+       ],
+       [
+        "Squad Shield",
+        "1x"
+       ]
+      ],
+      "image": "billet-platoon-sergeant.webp"
+     },
+     {
+      "name": "Platoon Commander",
+      "id": "platoon-commander",
+      "fields": [
+       [
+        "Permissions",
+        "MEDIC/ENG/EOD + GS7/DK10"
+       ],
+       [
+        "Authorized Kits",
+        "Rifleman, Grenadier, Scatter Blaster"
+       ],
+       [
+        "Requirement",
+        "SL SULC\nRadio Operator"
+       ],
+       [
+        "Disposable Launcher",
+        "Qualification Needed"
+       ],
+       [
+        "Squad Shield",
+        "NONE"
+       ]
+      ],
+      "image": "billet-platoon-commander.webp"
+     }
+    ]
+   },
+   {
+    "heading": "Senior Unit Command",
+    "billets": [
+     {
+      "name": "Company Sergeant Major",
+      "id": "company-sergeant-major",
+      "fields": [
+       [
+        "Permissions",
+        "MEDIC/ENG/EOD + GS7/DK10"
+       ],
+       [
+        "Authorized Kits",
+        "Rifleman, Grenadier, CQB"
+       ],
+       [
+        "Requirement",
+        "SL SULC\nRadio Operator"
+       ],
+       [
+        "Disposable Launcher",
+        "Qualification Needed"
+       ],
+       [
+        "Squad Shield",
+        "NONE"
+       ]
+      ],
+      "image": "billet-company-sergeant-major.webp"
+     },
+     {
+      "name": "Battalion Sergeant Major",
+      "id": "battalion-sergeant-major",
+      "fields": [
+       [
+        "Permissions",
+        "MEDIC/ENG/EOD + GS7/DK10"
+       ],
+       [
+        "Authorized Kits",
+        "Rifleman, Grenadier, CQB"
+       ],
+       [
+        "Requirement",
+        "SL SULC\nRadio Operator"
+       ],
+       [
+        "Disposable Launcher",
+        "Qualification Needed"
+       ],
+       [
+        "Squad Shield",
+        "NONE"
+       ]
+      ],
+      "image": "billet-battalion-sergeant-major.webp"
+     },
+     {
+      "name": "Company Commander",
+      "id": "company-commander",
+      "fields": [
+       [
+        "Permissions",
+        "MEDIC/ENG/EOD + GS7/DK10"
+       ],
+       [
+        "Authorized Kits",
+        "Rifleman, Grenadier, CQB"
+       ],
+       [
+        "Requirement",
+        "SL SULC\nRadio Operator"
+       ],
+       [
+        "Disposable Launcher",
+        "Qualification Needed"
+       ],
+       [
+        "Squad Shield",
+        "NONE"
+       ]
+      ],
+      "image": "billet-company-commander.webp"
+     },
+     {
+      "name": "Battalion Commander",
+      "id": "battalion-commander",
+      "fields": [
+       [
+        "Permissions",
+        "MEDIC/ENG/EOD + GS7/DK10"
+       ],
+       [
+        "Authorized Kits",
+        "Rifleman, Grenadier, CQB"
+       ],
+       [
+        "Requirement",
+        "SL SULC\nRadio Operator"
+       ],
+       [
+        "Disposable Launcher",
+        "Qualification Needed"
+       ],
+       [
+        "Squad Shield",
+        "NONE"
+       ]
+      ],
+      "image": "billet-battalion-commander.webp"
+     }
+    ]
+   },
+   {
+    "heading": "Supporting Roles",
+    "billets": [
+     {
+      "name": "Weapons Team",
+      "id": "weapons-team",
+      "fields": [
+       [
+        "Permissions",
+        "Based on Billet / Certs"
+       ],
+       [
+        "Authorized Kits",
+        "Based on Billet / Qualifications"
+       ],
+       [
+        "Requirement",
+        "Emplaced Weapons"
+       ],
+       [
+        "Unit Cap",
+        "x8 Troopers"
+       ],
+       [
+        "Disposable Launcher",
+        "Based on Billet"
+       ]
+      ],
+      "image": "billet-weapons-team.webp"
+     },
+     {
+      "name": "Armor & Mechanized Crew",
+      "id": "armor-mechanized-crew",
+      "fields": [
+       [
+        "Permissions",
+        "MEDIC/ENG + CTAB"
+       ],
+       [
+        "Authorized Kits",
+        "Rifleman, CQB"
+       ],
+       [
+        "Requirement",
+        "Armor Crew\nOR\nMechanized Crew"
+       ],
+       [
+        "Unit Cap",
+        "x8 Crew"
+       ],
+       [
+        "Disposable Launcher",
+        "NONE"
+       ]
+      ],
+      "image": "billet-armor-mechanized-crew.webp"
+     },
+     {
+      "name": "Light Cavalry Crew",
+      "id": "light-cavalry-crew",
+      "fields": [
+       [
+        "Permissions",
+        "MEDIC/ENG + CTAB"
+       ],
+       [
+        "Authorized Kits",
+        "Rifleman, CQB"
+       ],
+       [
+        "Requirement",
+        "Light Cavalry Crew"
+       ],
+       [
+        "Unit Cap",
+        "x8 Crew"
+       ],
+       [
+        "Disposable Launcher",
+        "NONE"
+       ]
+      ],
+      "image": "billet-light-cavalry-crew.webp"
+     },
+     {
+      "name": "Crew Chief",
+      "id": "crew-chief",
+      "fields": [
+       [
+        "Permissions",
+        "MEDIC/ENG + CTAB"
+       ],
+       [
+        "Authorized Kits",
+        "Rifleman, CQB"
+       ],
+       [
+        "Requirement",
+        "Combat Medic\nRadio Operator"
+       ],
+       [
+        "Unit Cap",
+        "x2 per Platoon"
+       ],
+       [
+        "Disposable Launcher",
+        "NONE"
+       ]
+      ],
+      "image": "billet-crew-chief.webp"
+     },
+     {
+      "name": "Pilot",
+      "id": "pilot",
+      "fields": [
+       [
+        "Permissions",
+        "MEDIC/ENG + CTAB"
+       ],
+       [
+        "Authorized Kits",
+        "Pilot"
+       ],
+       [
+        "Requirement",
+        "SCT & Pilot Tryouts"
+       ],
+       [
+        "Unit Cap",
+        "x3 per Platoon"
+       ],
+       [
+        "Disposable Launcher",
+        "NONE"
+       ]
+      ],
+      "image": "billet-pilot.webp"
+     },
+     {
+      "name": "Naval Officer\nGround Operations",
+      "id": "naval-officer-ground-operations",
+      "fields": [
+       [
+        "Permissions",
+        "MEDIC (If Certed)"
+       ],
+       [
+        "Authorized Kits",
+        "Navy"
+       ],
+       [
+        "Restriction",
+        "Must have Navy Billet & Head Zeus permission."
+       ],
+       [
+        "Requirement",
+        "RTO & AT"
+       ],
+       [
+        "Disposable Launcher",
+        "NONE"
+       ]
+      ],
+      "image": "billet-naval-officer-ground-operations.webp"
+     },
+     {
+      "name": "Ranger",
+      "id": "ranger",
+      "fields": [
+       [
+        "Permissions",
+        "CTAB"
+       ],
+       [
+        "Authorized Kits",
+        "Qualified Weapons\nBased on Billet"
+       ],
+       [
+        "Requirement",
+        "SCT & RRC & DR"
+       ],
+       [
+        "Unit Cap",
+        "34 Rangers"
+       ],
+       [
+        "Disposable Launcher",
+        "Based on Billet"
+       ]
+      ],
+      "image": "billet-ranger.webp"
+     }
+    ]
+   }
+  ],
+  "qa": {
+   "heading": "Quality Assurance Procedures",
+   "intro": "In the event that a trooper neglects, abuses, refuses, or is ignorant of their assigned role (Billet) & kit  [Certification or Weapons Qualification] the following actions should be followed.",
+   "items": [
+    "Retrain: In the event a trooper neglects their role, or otherwise are deemed ignorant of their assigned role,  their Squad Leadership/CoC can request that trooper undergo a retrain of the role in question.",
+    "Platoon Leadership, or S6 COIC will approve the request.",
+    "Removal: In the event a trooper abuses their role or kit maliciously, or refuses to carry out their duties, their Squad Leadership/CoC can request a removal of the role.",
+    "Approval for a removal can only occur after the following actions:",
+    "1: The Trooper has been warned by their leadership before & a DA point has been filed in regards to the first occurrence.",
+    "2: Upon a second occurrence (with accompanying DA log) S6 COIC will conduct a full investigation of the incident before determination.",
+    "If approved/authorized by S6 COIC, the Discord role will be removed. A Retrain for the trooper can be requested for the removed role once 14 days has elapsed after removal",
+    "These procedures can be changed for a case by case basis depending on the severity of the event at hand and the actions of the Trooper in question.",
+    "S6 Instructors will communicate with the Trooper & Schedule a retrain time/date."
+   ]
+  }
+ },
+ "kits": {
+  "resupply": {
+   "heading": "Resupply Regulations",
+   "items": [
+    "When Resupplying in game, all munition or medical equipment can be resupplied to a +2 maximum from the Starting Kit equipment allotment.",
+    "Example: I started the OP with x12 Mags, I resupplied in OP & now have x 14 Mags total",
+    "Example B: I had x3 Thermal Detonators at OP start. I resupplied in OP and now have x5 Thermal Sets total.",
+    "Resetting or renewing your kit from the armory upon death is prohibited to maintain an immersive and balanced experienced.\n\nThe only exemption being if your squad, detachment, or platoon is formally recalled to an armory as a unit for resupply.",
+    "Have Integrity and follow these regulations as resupply crates are balanced to Squad sized needs. Taking more than you are authorized will hinder your squads combat ability. Share with your brothers. The Codex Kaides Demands it."
+   ]
+  },
+  "kits": [
+   {
+    "name": "Rifleman 15A/C",
+    "id": "rifleman-15a-c",
+    "startHeading": "Starting Kit",
+    "starting": [
+     "Bacta Bandage x20",
+     "Battle Stim x2",
+     "Cable Tie x2",
+     "Entrenching Tool",
+     "Head Lamp",
+     "IR Strobe",
+     "Maglite XL50",
+     "Splint x4",
+     "Tourniquet x5",
+     "Varying Smoke Canisters x5",
+     "Glow Rod x1",
+     "Thermal Detonator x3",
+     "High Power Energy Cell x12",
+     "Ammo Backpack (Optional)",
+     "Disposable Launcher (Optional)"
+    ],
+    "extraName": "Ammo Bearer Rifle Pack",
+    "extraHeading": "Backpack Contents",
+    "extra": [
+     "High Power DMR Blaster Cell x4",
+     "High Power Energy Cell x12",
+     "High Power Scatter Cell x4",
+     "Standard Energy Cell x18"
+    ]
+   },
+   {
+    "name": "Rifleman 15S",
+    "id": "rifleman-15s",
+    "startHeading": "Starting Kit",
+    "starting": [
+     "Bacta Bandage x20",
+     "Battle Stim x2",
+     "Cable Tie x2",
+     "Entrenching Tool",
+     "Head Lamp",
+     "IR Strobe",
+     "Maglite XL50",
+     "Splint x4",
+     "Tourniquet x5",
+     "Varying Smoke Canisters x5",
+     "Glow Rod x1",
+     "Thermal Detonator x3",
+     "Standard Power Energy Cell x16",
+     "Ammo Backpack (Optional)",
+     "Disposable Launcher (Optional)"
+    ],
+    "extraName": "Ammo Bearer Rifle Pack",
+    "extraHeading": "Backpack Contents",
+    "extra": [
+     "High Power DMR Blaster Cell x4",
+     "High Power Energy Cell x12",
+     "High Power Scatter Cell x4",
+     "Standard Energy Cell x18"
+    ]
+   },
+   {
+    "name": "LMG Gunner DC-15L",
+    "id": "lmg-gunner-dc-15l",
+    "startHeading": "Starting Kit",
+    "starting": [
+     "Bacta Bandage x20",
+     "Battle Stim x2",
+     "Cable Tie x2",
+     "Entrenching Tool",
+     "Head Lamp",
+     "IR Strobe",
+     "Maglite XL50",
+     "Splint x4",
+     "Tourniquet x5",
+     "White Smoke Canister",
+     "Glow Rod x1",
+     "Thermal Detonator x3",
+     "Low Power Ext. Mag x14",
+     "SSWT Kit"
+    ],
+    "extraName": "Ammo Bearer 15L Pack",
+    "extraHeading": "Backpack Contents",
+    "extra": [
+     "Low Power Ext. Cap. Mag x10"
+    ]
+   },
+   {
+    "name": "Heavy Gunner Z-6",
+    "id": "heavy-gunner-z-6",
+    "startHeading": "Starting Kit",
+    "starting": [
+     "Bacta Bandage x20",
+     "Battle Stim x2",
+     "Cable Tie x2",
+     "Entrenching Tool",
+     "Head Lamp",
+     "IR Strobe",
+     "Maglite XL50",
+     "Splint x4",
+     "Tourniquet x5",
+     "Varying Smoke Canisters x5",
+     "Glow Rod x1",
+     "Thermal Detonator x3",
+     "High Power Energy Battery x6",
+     "SSWT Kit"
+    ],
+    "extraName": "Ammo Bearer Z6 Pack",
+    "extraHeading": "Backpack Contents",
+    "extra": [
+     "High Power Energy Battery x7"
+    ]
+   },
+   {
+    "name": "CQB Specialist",
+    "id": "cqb-specialist",
+    "startHeading": "Starting Kit",
+    "starting": [
+     "Bacta Bandage x20",
+     "Battle Stim x2",
+     "Cable Tie x2",
+     "Entrenching Tool",
+     "Head Lamp",
+     "IR Strobe",
+     "Maglite XL50",
+     "Splint x4",
+     "Tourniquet x5",
+     "Varying Smoke Canisters x3",
+     "Glow Rod x1",
+     "Thermal Detonator x5",
+     "Sonic Detonator x5",
+     "Droid Poppers x5",
+     "HP Scatter Cell x16 (DP23)",
+     "Thermal Slug x4 (DP23)",
+     "STND Energy Cell x14 (DC15s)"
+    ],
+    "extraName": "Ammo Bearer Rifle Pack",
+    "extraHeading": "",
+    "extra": []
+   },
+   {
+    "name": "DC-15 LE DMR",
+    "id": "dc-15-le-dmr",
+    "startHeading": "Starting Kit",
+    "starting": [
+     "Bacta Bandage x20",
+     "Battle Stim x2",
+     "Cable Tie x2",
+     "Entrenching Tool",
+     "Head Lamp",
+     "IR Strobe",
+     "Maglite XL50",
+     "Splint x4",
+     "Tourniquet x5",
+     "Varying Smoke Canisters x5",
+     "Glow Rod x1",
+     "Thermal Detonator x3",
+     "DMR Energy Cell x10-12"
+    ],
+    "extraName": "Ammo Bearer Rifle Pack",
+    "extraHeading": "",
+    "extra": []
+   },
+   {
+    "name": "PLX-1 / RPS-6 / RPS-6 (SR)",
+    "id": "plx-1-rps-6-rps-6-sr",
+    "startHeading": "Starting Kit",
+    "starting": [
+     "Bacta Bandage x20",
+     "Battle Stim x2",
+     "Cable Tie x2",
+     "Entrenching Tool",
+     "Head Lamp",
+     "IR Strobe",
+     "Maglite XL50",
+     "Splint x4",
+     "Tourniquet x5",
+     "Varying Smoke Canisters x5",
+     "Glow Rod x1",
+     "Thermal Detonator x3",
+     "Energy Cell x12 (DC-15S x14)",
+     "[RPS-6] Rocket x4",
+     "[PLX-1] Guided Missile x2",
+     "[PLX-1] AA Missile x2",
+     "[RPS-6] Rocket (SR) x2"
+    ],
+    "extraName": "Ammo Bearer\nPLX-1 / RPS6 / RPS6 SR",
+    "extraHeading": "Backpack(s) Contents",
+    "extra": [
+     "PLX-1 Guided Missile (AT) x3",
+     "RPS6 Rocket (AP) x3",
+     "RPS6 Rocket (HE) x1",
+     "RPS6 Rocket (SR) x2"
+    ]
+   },
+   {
+    "name": "Rifle AT T-15",
+    "id": "rifle-at-t-15",
+    "startHeading": "Starting Kit",
+    "starting": [
+     "Bacta Bandage x20",
+     "Battle Stim x2",
+     "Cable Tie x2",
+     "Entrenching Tool",
+     "Head Lamp",
+     "IR Strobe",
+     "Maglite XL50",
+     "Splint x4",
+     "Tourniquet x5",
+     "Varying Smoke Canisters x5",
+     "Glow Rod x1",
+     "Thermal Detonator x3",
+     "Low Power Thermal Coil x7",
+     "High power Thermal Coil x5"
+    ],
+    "extraName": "Ammo Bearer T-15 Pack",
+    "extraHeading": "Backpack Contents",
+    "extra": [
+     "High Power Thermal Coil x4",
+     "Low Power Thermal Coil x2"
+    ]
+   },
+   {
+    "name": "Grenadier",
+    "id": "grenadier",
+    "startHeading": "Starting Kit",
+    "starting": [
+     "Bacta Bandage x20",
+     "Battle Stim x2",
+     "Cable Tie x2",
+     "Entrenching Tool",
+     "Head Lamp",
+     "IR Strobe",
+     "Maglite XL50",
+     "Splint x4",
+     "Tourniquet x5",
+     "Varying Smoke Canisters x5",
+     "Glow Rod x1",
+     "Thermal Detonator x3",
+     "HuntIR Monitor",
+     "Impact Explosive Rounds x12",
+     "Varying Smoke Grenades x10",
+     "HuntIR Round x2",
+     "Illumination Flare x4",
+     "Energy Cell x12 (DC-15S x14)"
+    ]
+   },
+   {
+    "name": "Radio Operator",
+    "id": "radio-operator",
+    "startHeading": "Starting Kit",
+    "starting": [
+     "Bacta Bandage x20",
+     "Battle Stim x2",
+     "Cable Tie x2",
+     "Entrenching Tool",
+     "Head Lamp",
+     "IR Strobe",
+     "Maglite XL50",
+     "Splint x4",
+     "Tourniquet x5",
+     "Varying Smoke Canisters x5",
+     "Glow Rod x1",
+     "Thermal Detonator x3",
+     "Varying Smoke Canisters x30",
+     "MicroDAGR",
+     "Galaxy S7 ATAK (CTab)",
+     "Map Tools",
+     "Data Pad x1",
+     "Data Chips x20"
+    ],
+    "extraName": "Scatter Blaster Variant",
+    "extraHeading": "Ammo Contents",
+    "extra": [
+     "HP Scatter Cell x16 (DP23)",
+     "Thermal Slug x4 (DP23)"
+    ]
+   },
+   {
+    "name": "Combat Engineer",
+    "id": "combat-engineer",
+    "startHeading": "Starting Kit",
+    "starting": [
+     "Bacta Bandage x20",
+     "Battle Stim x2",
+     "Cable Tie x2",
+     "Entrenching Tool",
+     "Head Lamp",
+     "IR Strobe",
+     "Maglite XL50",
+     "Splint x4",
+     "Tourniquet x5",
+     "Varying Smoke Canisters x5",
+     "Glow Rod x1",
+     "Thermal Detonator x3",
+     "Fortify Tool",
+     "Thermal Penetrators x3",
+     "Defusal Kit",
+     "M152 Firing Device",
+     "Mine Detector",
+     "Det-Pack Demo Charge x5",
+     "Imploder Block x2"
+    ],
+    "extraName": "Scatter Blaster Variant",
+    "extraHeading": "Ammo Contents",
+    "extra": [
+     "HP Scatter Cell x16 (DP23)",
+     "Thermal Slug x4 (DP23)"
+    ]
+   },
+   {
+    "name": "Combat Medic",
+    "id": "combat-medic",
+    "startHeading": "Starting Kit",
+    "starting": [
+     "Bacta Bandage x100",
+     "Battle Stim x25",
+     "Cable Tie x2",
+     "Entrenching Tool",
+     "Head Lamp",
+     "IR Strobe",
+     "Maglite XL50",
+     "Splint x10",
+     "Tourniquet x8",
+     "Varying Smoke Canisters x4",
+     "Glow Rod x1",
+     "Thermal Detonator x2",
+     "Bacta Tank",
+     "Field Cauterizer",
+     "Adenosine Autoinjector x6",
+     "Plasma IV (500ml) x12",
+     "Plasma IV (1000ml) x6"
+    ],
+    "extraName": "Scatter Blaster Variant",
+    "extraHeading": "Ammo Contents",
+    "extra": [
+     "HP Scatter Cell x16 (DP23)",
+     "Thermal Slug x4 (DP23)"
+    ]
+   },
+   {
+    "name": "Armor Crew",
+    "id": "armor-crew",
+    "startHeading": "Starting Kit",
+    "starting": [
+     "Bacta Bandage x20",
+     "Battle Stim x2",
+     "Cable Tie x2",
+     "Entrenching Tool",
+     "Head Lamp",
+     "IR Strobe",
+     "Maglite XL50",
+     "Splint x4",
+     "Tourniquet x5",
+     "Varying Smoke Canisters x5",
+     "Glow Rod x1",
+     "Thermal Detonator x3",
+     "Primary Weapon (View Kits)",
+     "Long Range Radio",
+     "DK 10 Tablet",
+     "Galaxy ATAK",
+     "ToolKit"
+    ]
+   },
+   {
+    "name": "Mechanized Crew",
+    "id": "mechanized-crew",
+    "startHeading": "Starting Kit",
+    "starting": [
+     "Bacta Bandage x20",
+     "Battle Stim x2",
+     "Cable Tie x2",
+     "Entrenching Tool",
+     "Head Lamp",
+     "IR Strobe",
+     "Maglite XL50",
+     "Splint x4",
+     "Tourniquet x5",
+     "Varying Smoke Canisters x5",
+     "Glow Rod x1",
+     "Thermal Detonator x3",
+     "Primary Weapon (View Kits)",
+     "Long Range Radio",
+     "DK 10 Tablet",
+     "Galaxy ATAK",
+     "ToolKit"
+    ]
+   },
+   {
+    "name": "Light Cavalry Crew",
+    "id": "light-cavalry-crew",
+    "startHeading": "Starting Kit",
+    "starting": [
+     "Bacta Bandage x20",
+     "Battle Stim x2",
+     "Cable Tie x2",
+     "Entrenching Tool",
+     "Head Lamp",
+     "IR Strobe",
+     "Maglite XL50",
+     "Splint x4",
+     "Tourniquet x5",
+     "Varying Smoke Canisters x5",
+     "Glow Rod x1",
+     "Thermal Detonator x3",
+     "Primary Weapon (View Kits)",
+     "Long Range Radio",
+     "Galaxy ATAK",
+     "Small ToolKit",
+     "(Placeholder - Subject to Change)"
+    ]
+   }
+  ]
+ },
+ "uniform": {
+  "title": "Uniform Regulations",
+  "general": [
+   "All accessories must be worn while fulfilling the corresponding billet",
+   "Billet Related gear, backpacks, etc, can only be worn when actively fulfilling that billet."
+  ],
+  "accessories": [
+   {
+    "name": "Pistols & Holsters",
+    "rules": [
+     "SINGLE - Reserved for FTL+ / Navy\n/ Pilot / Crew Chief",
+     "DUAL - Reserved for CS+ / CXS+ / ARC"
+    ]
+   },
+   {
+    "name": "Kama / Holsterless Kama",
+    "rules": [
+     "Must be an SL+ in an active leadership role during the operation."
+    ]
+   },
+   {
+    "name": "Pauldrons",
+    "rules": [
+     "BLACK - Reserved for PS, CXL, & CSM",
+     "GREEN - Reserved for CSL, CL, CXR & CC"
+    ]
+   },
+   {
+    "name": "Macrobinoculars",
+    "rules": [
+     "Distributed at PL discretion only",
+     "Troopers with custom Macrobinoculars may wear them freely, those who do not must have PL permission."
+    ]
+   },
+   {
+    "name": "Backpacks",
+    "rules": [
+     "Only worn when actively fulfilling a billet",
+     "Backpack-on-Chest is Reserved for 3-4 \"Howler\" Section ONLY"
+    ]
+   },
+   {
+    "name": "Leadership Sashes",
+    "rules": [
+     "Reserved for corresponding FTL/FL+ billet only (While active in the role / By platoon)"
+    ]
+   },
+   {
+    "name": "LR Radio Back Item",
+    "rules": [
+     "RTO Backpack - Squad RTO(s)\nMini RTO Pack - SL/PS+PRTO/Crew Chief\nLR Attachment - Pilots/PL/CC/BC"
+    ]
+   },
+   {
+    "name": "Officer Visor",
+    "rules": [
+     "Reserved for Company Command +"
+    ]
+   },
+   {
+    "name": "Helmet Rangefinder",
+    "rules": [
+     "Reserved for PS & PL+ / ARC"
+    ]
+   }
+  ],
+  "exceptions": {
+   "heading": "EXCEPTIONS",
+   "text": "Any exceptions to the above mentioned regulations must and may only be authorized by the Unit Leader"
+  },
+  "custom": [
+   {
+    "name": "Custom Helmet Rules",
+    "rules": [
+     "- No more than 50% of the helmet may be painted",
+     "At least 10% of the helmet must be painted, no less than the base armors coloring.",
+     "- The only third color allowed will be Dark Grey or Black for small accents or text, may not be more than 5% of the helmets total coloring.",
+     "- All text and  numbers must be in Aurebesh, signatures and other High Galactic are only permitted by S5 COIC/NCOIC approval\n\nFour instances of text total may be applied across both armor and helmet. An instance of text is defined as a linear or near-linear string of characters in Aurebesh. No other language is allowed. Up to two instances may be on the helmet or three on the armor as long as the combined total does not go over four. In cases where multiple lines of text are above one another each line shall count as an instance of text. Text should be limited to short phrases and cannot be a core design feature",
+     "- No offensive or real world political designs are permitted.",
+     "- Stickers are allowed however they must be reasonably sized and tasteful",
+     "- References to the real would or popular culture should be avoided and require S-5 COIC approval. Religious iconography, text names or references are not permitted and in violation of Unit Discord/Common Rule #5.",
+     "- Iconography derived from other fandoms are allowed but not supercede the size of a credit card and must not clash with the units color pallet.\n\nHelmet: 1 sticker\nA maximum of 2 copies of the same sticker can be used. No more than 3 stickers total.",
+     "- No damage that would make the helmet unserviceable (Cracked visor, burn marks, etc)",
+     "- Where possible, keep the unit motif of the line running down the face",
+     "- If you ask for a glowing visor you will be bullied",
+     "- Jaig Eyes or features resembling Jaig Eyes are only allowed if you have earned them per Unit Award guidelines.",
+     "- Helmet designs may not emulate canonical character designs. (i.e no you may not make Rex's helmet green.)",
+     "- You may only use one shade of Dark Grey or Black at a time",
+     "- A maximum of one sticker is allowed and must not clash with the units primary color pallet. The sticker reasonably sized and tasteful.",
+     "- No emulations of tape, weld-marks, stitches or other physical alterations may be drawn onto the armor.",
+     "- Patterns in armor whether geometric, animalistic or any other where the total surface area of the pattern is at least 40% Green shall be counted as 100% Green for the entire area of the pattern. The area of the pattern will be defined as the total surface area of the armor or helmet where the design initiates a repetition until the furthest away part of the pattern."
+    ]
+   },
+   {
+    "name": "Custom Armor Rules",
+    "rules": [
+     "- No more than 50% of the uniform, including helmet and armor, may be painted",
+     "- At least 15% of the armor must be painted, no less than the base armors amount of coloring.",
+     "- The only third color allowed will be Dark Grey or Black for small accents or text, may not comprise more than 5% of the armor & helmet combined.",
+     "- All text and  numbers must be in Aurebesh, signatures and other High Galactic are only permitted by S5 COIC/NCOIC approval\n\nFour instances of text total may be applied across both armor and helmet. An instance of text is defined as a linear or near-linear string of characters in Aurebesh. No other language is allowed. Up to two instances may be on the helmet or three on the armor as long as the combined total does not go over four. In cases where multiple lines of text are above one another each line shall count as an instance of text. Text should be limited to short phrases and cannot be a core design feature",
+     "- No offensive or real world political designs are permitted.",
+     "- A maximum of one sticker is allowed and must not clash with the units primary color pallet. The sticker reasonably sized and tasteful.",
+     "- References to the real would or popular culture should be avoided and require S-5 COIC approval. Religious iconography, text names or references are not permitted and in violation of Unit Discord/Common Rule #5.",
+     "- Iconography from from other IPs are allowed but must not supersede the size of a hand print and must not clash with the units color pallet.\n\nArmor: 2 stickers\nA maximum of 2 copies of the same sticker can be used. No more than 3 stickers total.",
+     "- No damage that would make the armor unserviceable is permitted (Cracks, blast marks, extensive weathering, etc)",
+     "- Where possible, try to build off of the units base armor patterns.",
+     "- If you ask for camouflage you will be bullied.",
+     "- Iconography depicting awards, accolades, or billet icons given in the unit are not permitted except for Jaig Eyes / Ranger Tab, if earned.\n\nMust be above the elbow / midriff and below the neck. (Chest / Shoulders / Back / Upper Arms)\n\nDoes not count as a scroll of text.",
+     "- Armor designs may not emulate canonical character designs. (i.e no you may not copy Wolfe's armor and paint it green.)",
+     "- You may only use one shade of Dark Grey or Black at a time\n\nA maximum of one shoulder may be Dark Grey or Black",
+     "- Medic and other billet symbols are not allowed. Real world medical and billet symbols are not allowed. The Caudecus and any other attempts to make a medic-like symbol are not allowed.",
+     "- Patterns in armor whether geometric, animalistic or any other where the total surface area of the pattern is at least 40% Green shall be counted as 100% Green for the entire area of the pattern. The area of the pattern will be defined as the total surface area of the armor or helmet where the design initiates a repetition until the furthest away part of the pattern.",
+     "- No emulations of tape, weld-marks, stitches or other physical alterations may be drawn onto the armor."
+    ]
+   },
+   {
+    "name": "Custom NVG Rules",
+    "rules": [
+     "- The only third color allowed will be Dark Grey or Black for small accents or text, may not comprise more than 10% of the armor & helmet combined.",
+     "- All text and  numbers must be in Aurebesh, signatures and other High Galactic are only permitted by S5 COIC/NCOIC approval\n\nFour instances of text total may be applied across both armor and helmet. An instance of text is defined as a linear or near-linear string of characters in Aurebesh. No other language is allowed. Up to two instances may be on the helmet or three on the armor as long as the combined total does not go over four. In cases where multiple lines of text are above one another each line shall count as an instance of text. Text should be limited to short phrases and cannot be a core design feature",
+     "- No offensive or real world political designs are permitted.",
+     "- No stickers are permitted on NVGs due to the small size of the template.",
+     "- References to the real world or popular culture should be avoided and require command approval.",
+     "- Iconography either of Star Wars, or from from other IPs are allowed but must not supersede the size of a credit card.",
+     "- No damage that would make the NVGs unserviceable is permitted (Cracks, blast marks, extensive weathering, etc)",
+     "- Where possible, try to build off of the units base NVG design.",
+     "- If you ask for camouflage or for the NVGs to have alterior night vision colors you will be bullied.",
+     "- Iconography depicting awards, accolades, or billet icons given in the unit are not permitted except for Jaig Eyes, if earned.",
+     "- Designs may not emulate canonical character designs. (i.e no you may not copy Wolfe's armor and paint it green.)"
+    ]
+   }
+  ]
+ },
+ "equivalence": {
+  "title": "Rank Equivalence Chart",
+  "cols": [
+   "Infantry Rank(s)",
+   "Fynock Rank(s)"
+  ],
+  "rows": [
+   [
+    "Clone Trooper\n(CT)",
+    ""
+   ],
+   [
+    "Senior Clone Trooper\n(SCT)",
+    "Clone Flight Recruit\n(CXC)"
+   ],
+   [
+    "Veteran Clone Trooper\n(VCT)",
+    "Clone Flight Ensign\n(CX)"
+   ],
+   [
+    "Clone Lance Corporal\n(CLC)",
+    "Clone Flight Ensign, Veteran\n(CXV)"
+   ],
+   [
+    "Clone Corporal\n(CPL)",
+    "Clone Flight Lieutenant Junior Grade\n(CXP)"
+   ],
+   [
+    "Clone Sergeant\n(CS)",
+    "Clone Flight 2nd Lieutenant\n(CXS)"
+   ],
+   [
+    "Clone Staff Sergeant/Lieutenant\n(CSS/CL)",
+    "Clone Flight Lieutenant\n(CXL)"
+   ],
+   [
+    "Clone Sergeant Major/Captain\n(CSM/CC)",
+    "Clone Flight Lieutenant Commander\n(CXR)"
+   ],
+   [
+    "Clone Battalion Commander (BC)\n/Sergeant Major (BSM)",
+    ""
+   ]
+  ]
+ }
+}

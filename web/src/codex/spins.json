@@ -1,0 +1,50 @@
+{
+ "autorifleman-38x": {
+  "frames": 48,
+  "height": 720,
+  "srcHeight": 822,
+  "width": 1123
+ },
+ "cqb-dp-23": {
+  "frames": 48,
+  "height": 720,
+  "srcHeight": 822,
+  "width": 864
+ },
+ "dc-15-le-dmr": {
+  "frames": 48,
+  "height": 720,
+  "srcHeight": 596,
+  "width": 1776
+ },
+ "heavy-gunner-z-6": {
+  "frames": 48,
+  "height": 720,
+  "srcHeight": 823,
+  "width": 1186
+ },
+ "lmg-gunner-dc-15l": {
+  "frames": 48,
+  "height": 720,
+  "srcHeight": 823,
+  "width": 1250
+ },
+ "rifleman-dc-15a": {
+  "frames": 48,
+  "height": 720,
+  "srcHeight": 822,
+  "width": 1155
+ },
+ "rifleman-dc-15c": {
+  "frames": 48,
+  "height": 720,
+  "srcHeight": 822,
+  "width": 1000
+ },
+ "rifleman-dc-15s": {
+  "frames": 48,
+  "height": 720,
+  "srcHeight": 822,
+  "width": 828
+ }
+}

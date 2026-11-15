@@ -1,0 +1,11 @@
+{
+  "name": "orbat-bot",
+  "private": true,
+  "version": "0.1.0",
+  "description": "41st Ops bot: reads training logs from Discord and keeps site roles in sync",
+  "main": "index.js",
+  "type": "commonjs",
+  "engines": { "node": ">=20" },
+  "scripts": { "start": "node index.js" },
+  "dependencies": { "discord.js": "^14.27.0" }
+}

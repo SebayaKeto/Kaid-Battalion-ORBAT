@@ -1,0 +1,7 @@
+.env
+web/node_modules/
+pocketbase/pb_data/
+
+pocketbase/pocketbase.exe
+pocketbase/pocketbase
+bot/node_modules/

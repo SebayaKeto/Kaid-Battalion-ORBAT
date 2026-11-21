@@ -78,6 +78,17 @@ routerAdd("POST", "/api/orbat/admin/sync-roles", (e) => {
   return e.json(200, { updated: r.updated, removed: r.removed, unchanged: r.unchanged });
 }, $apis.requireAuth("users"));
 
+// Every night at 03:30, and once at start-up: delete Security Log entries
+// older than ORBAT_SECURITY_LOG_DAYS (90 by default), so IP addresses
+// aren't kept forever. The points and roster audit log is not touched.
+cronAdd("orbat_security_log_cleanup", "30 3 * * *", () => {
+  require(`${__hooks}/lib/orbat.js`).pruneSecurityLog($app);
+});
+onBootstrap((e) => {
+  e.next();
+  require(`${__hooks}/lib/orbat.js`).pruneSecurityLog(e.app);
+});
+
 // Every 2 minutes: keep site permissions in line with Discord roles.
 // One request per 1000 members, so this stays light.
 cronAdd("orbat_role_sync", "*/2 * * * *", () => {

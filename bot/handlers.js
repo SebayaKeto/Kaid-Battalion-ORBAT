@@ -58,6 +58,21 @@ async function denialNotice(message, item, staffRoles = []) {
   return thread;
 }
 
+// Runs fn, but skips the call if the previous one hasn't finished yet. The
+// 20-second sync uses this: when Discord is slow, two overlapping runs would
+// both post the same audit message or open two denial threads.
+function oneAtATime(fn) {
+  let running = false;
+  return async function () {
+    if (running) return;
+    running = true;
+    try { return await fn(); } finally { running = false; }
+  };
+}
+
+// a site request that hasn't answered in this long is given up (and retried on the next sync)
+const API_TIMEOUT_MS = 15000;
+
 function makeApi(baseUrl, secret, log = console) {
   const base = baseUrl.replace(/\/+$/, "");
   return async function api(method, path, body) {
@@ -65,6 +80,7 @@ function makeApi(baseUrl, secret, log = console) {
       method,
       headers: { "Content-Type": "application/json", "X-Orbat-Bot-Secret": secret },
       body: body === undefined ? undefined : JSON.stringify(body),
+      signal: AbortSignal.timeout(API_TIMEOUT_MS),
     });
     const data = await res.json().catch(() => ({}));
     if (!res.ok) {
@@ -196,4 +212,4 @@ async function sendMember(api, member, left = false) {
     : { discordId: member.id, roles: memberRoles(member), nick: member.displayName });
 }
 
-module.exports = { syncAudit, denialText, denialNotice, directoryEntry, sendDirectory, makeApi, sendLog, syncReviewed, sendMember, memberRoles, mentionNames, PENDING, APPROVED, DENIED };
+module.exports = { oneAtATime, API_TIMEOUT_MS, syncAudit, denialText, denialNotice, directoryEntry, sendDirectory, makeApi, sendLog, syncReviewed, sendMember, memberRoles, mentionNames, PENDING, APPROVED, DENIED };

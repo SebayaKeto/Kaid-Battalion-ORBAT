@@ -127,6 +127,38 @@ function log(app, entry) {
   }
 }
 
+// How many days the Security Log keeps entries (IP addresses, browsers).
+// ORBAT_SECURITY_LOG_DAYS in .env; 90 when unset, 0 keeps everything.
+function securityLogDays() {
+  const raw = String($os.getenv("ORBAT_SECURITY_LOG_DAYS") || "").trim();
+  if (raw === "") return 90;
+  const n = parseInt(raw, 10);
+  return /^\d+$/.test(raw) && n >= 0 ? n : 90;
+}
+
+// "2026-08-23 03:30:00.000Z": the moment `days` before now, in the format
+// PocketBase stores dates in, so it compares correctly as text.
+function securityLogCutoff(days, nowMs) {
+  return new Date(nowMs - days * 86400000).toISOString().replace("T", " ");
+}
+
+// Deletes Security Log entries older than the keep period. Returns how many went.
+function pruneSecurityLog(app) {
+  const days = securityLogDays();
+  if (!days) return 0;
+  try { app.findCollectionByNameOrId("security_log"); } catch (_) { return 0; } // first start: the migration hasn't run yet
+  try {
+    const res = app.db().newQuery("DELETE FROM security_log WHERE created < {:cut}")
+      .bind({ cut: securityLogCutoff(days, Date.now()) }).execute();
+    const n = res && typeof res.rowsAffected === "function" ? res.rowsAffected() : 0;
+    if (n) console.log(`[orbat] security log: removed ${n} entries older than ${days} days`);
+    return n;
+  } catch (err) {
+    console.log("[orbat] security log cleanup failed:", err);
+    return 0;
+  }
+}
+
 // Reads every member of the 41st Discord in pages of 1000 (one request per
 // page, needs the Server Members Intent). Returns { checked: false } on any failure.
 function fetchAllGuildMembers() {
@@ -240,4 +272,4 @@ function passwordProblem(pw, confirm) {
   return "";
 }
 
-module.exports = { PERMS, NOT_STAFF, permsFor, isStaff, config, requireBot, fetchGuildMember, fetchAllGuildMembers, syncAll, applyRoles, clearRoles, sameNetwork, log, userAgent, summary, validUsername, passwordProblem };
+module.exports = { securityLogDays, securityLogCutoff, pruneSecurityLog, PERMS, NOT_STAFF, permsFor, isStaff, config, requireBot, fetchGuildMember, fetchAllGuildMembers, syncAll, applyRoles, clearRoles, sameNetwork, log, userAgent, summary, validUsername, passwordProblem };

@@ -9,7 +9,7 @@ What works so far: the public ORBAT view, the staff login portal, and points tra
 - Discord sign-in, only for members of the 41st Discord.
 - Access from Discord roles (Unit Leader = everything, Unit Administration = points, promotions, transfers and recruitment, Quartermaster = assets; only Unit Leader approves new asset types). Everyone else uses the public view.
 - If someone's IP address changes, their session ends and they must type their password. Discord sign-in can't skip this.
-- Security log of every sign-in, failed password, IP change and reset.
+- Security log of every sign-in, failed password, IP change and reset. Entries are deleted after 90 days (set `ORBAT_SECURITY_LOG_DAYS` in `.env`; `0` keeps them forever), so IP addresses aren't kept longer than needed.
 - Unit Leader pages: Members (with password reset), Security Log, Discord Access (edit role mapping, sync now).
 - Roles re-sync from Discord every 2 minutes (needs Server Members Intent). Anyone who leaves the Discord loses access. An open page notices access changes within a minute: removed access applies at once (someone who loses every staff role is signed out and lands on the public view), new access shows a Reload prompt.
 

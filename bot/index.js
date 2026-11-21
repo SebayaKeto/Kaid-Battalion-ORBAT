@@ -117,10 +117,10 @@ client.once(Events.ClientReady, async (c) => {
   if (config.assetsChannel) console.log(`[bot] assets log goes to channel ${config.assetsChannel}`);
   else console.log("[bot] no ORBAT_ASSETS_CHANNEL set, so the Discord assets log is off");
   const sendTo = async (channelId, payload) => (await c.channels.fetch(channelId)).send(payload);
-  const tick = async () => {
+  const tick = h.oneAtATime(async () => {
     await h.syncReviewed(api, fetchMessage, config.staffRoles || []).catch((err) => console.log("[bot] review sync:", err.message));
     await h.syncAudit(api, sendTo).catch((err) => console.log("[bot] audit sync:", err.message));
-  };
+  });
   tick();
   setInterval(tick, 20000);
 });
